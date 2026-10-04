@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Stone Paper Scissors</h2>
+        <p>Stone beats scissors, scissors beat paper, and paper beats stone</p>
+        <button id="mode">Change Mode</button>
+    </header>
+    <main>
+        <div class="choices">
+            <div class="choice" id="stone"> <img src="./images/rock.jpeg"></div>
+            <div class="choice" id="paper"> <img src="./images/paper.jpeg"></div>
+            <div class="choice" id="scissor"><img src="./images/scissor.jpeg"></div>
+        </div>
+        <div class="score">
+            <div class="user-score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="compt-score">
+                <p id="compt-score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <div class="msg-container">
+                <p>Enter your Turn</p>
+            </div>
+        </main>
+    <script src="app.js"></script>
+</body>
+</html>

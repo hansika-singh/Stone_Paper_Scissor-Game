@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),
+    url("./images/RockGame.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.dark{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("./images/RockGame.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: cadetblue;
+    height:50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size:10px;;
+    color:bisque;
+}
+#mode{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 10px;
+    background-color: rgb(28, 85, 87);
+    color: bisque;
+    border: none;
+    border-radius: 10px;
+    width:fit-content;
+    padding: 2px;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+    
+}
+.choice img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.choice:hover img{
+    cursor: pointer;
+}
+.choice{
+    border-radius: 70%;
+    height:110px;
+    width: 110px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: rgb(3, 53, 55);
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 13px;
+}
+.user-score{
+    margin: 10px;
+    height: 50px;
+    border-radius: 50%;
+    color:brown;
+}
+#user-score{
+    text-align: center;
+}
+.compt-score{
+    margin: 10px;
+    height: 50px;
+    border-radius: 50%;
+    color:brown;
+}
+#compt-score{
+    text-align: center;
+}
+.msg-container{
+    margin-top: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+    color:bisque; ;
+    background-color:  rgb(28, 85, 87);
+    width:fit-content;
+    border-radius: 10%;
+    padding: 2px;
+}
