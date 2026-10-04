@@ -14,16 +14,6 @@ https://hansika-singh.github.io/Stone_Paper_Scissor-Game/
 
 ---
 
-## 🎥 Demo Preview
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Game Demo" width="600"/>
-</p>
-
-> 📌 Tip: Record your screen using OBS / Screen Recorder and convert to GIF using ezgif.com
-
----
-
 ## 📌 About The Project
 
 This is a browser-based implementation of the classic **Stone–Paper–Scissors** game.
